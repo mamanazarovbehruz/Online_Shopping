@@ -17,5 +17,5 @@ urlpatterns = [
     path('passChange/<int:pk>/', views.user_change_password, name='passChange'),
     path('addressChange/<int:pk>', views.user_change_address, name='addressChange'),
     path('user_delete/<int:pk>/', views.user_delete, name='user_delete'),
-    path('', views.user_login, name='user_login'),
+    path('user_login', views.user_login, name='user_login'),
 ]
