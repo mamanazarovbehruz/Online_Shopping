@@ -103,8 +103,11 @@ SESSION_CARD = 'cart'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Shopping_db',
+        'HOST': 'localhost',
+        'USER' : 'shop_behruz',
+        'PASSWORD': 'Mb2000@@',
     }
 }
 
